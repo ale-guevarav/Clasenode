@@ -1,8 +1,17 @@
 name: Work 1 Ale
-on: [push]
+
+on: 
+  push:
+    branches:
+      - test_1
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Print Something
-      run: echo "Hola Pitaya!"
+      - name: Print cosas
+        run: |
+          echo "Impresion 1"
+          echo "Impresion 2"
+          echo "Impresion 3"
