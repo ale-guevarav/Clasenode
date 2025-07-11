@@ -12,6 +12,4 @@ jobs:
     steps:
       - name: Print cosas
         run: |
-          echo "Impresion 1"
-          echo "Impresion 2"
-          echo "Impresion 3"
+          echo "Tarea 8"
